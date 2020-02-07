@@ -79,6 +79,7 @@ class Model:
                     plt.plot(range(disp_freq+1, i+2, disp_freq), mean_diffs)
                     plt.xlabel("Number of samples")
                     plt.ylabel("Mean absolute Fisher difference")
+                    plt.grid(True)
                     display.display(plt.gcf())
                     display.clear_output(wait=True)
 
